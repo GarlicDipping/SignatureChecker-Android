@@ -38,7 +38,11 @@ To add salt string to your app's signature string,
 
 <pre><code>
 
+...
+
 String saltedSignature = SignatureChecker.getSignature(*activity*, "ThisIsMySaltString");
+
+...
 
 </code></pre>
 
