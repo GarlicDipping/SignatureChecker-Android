@@ -46,6 +46,6 @@ String saltedSignature = SignatureChecker.getSignature(*activity*, "ThisIsMySalt
 
 </code></pre>
 
-Salt string is converted to byte array and then passed as a parameter for [MessageDigest.Update()] method.
+Salt string is converted to byte array and then passed as a parameter for MessageDigest.Update() method.
 
 * I highly recommend to use salt string, and use this module with your own server to compare hash!
