@@ -28,7 +28,7 @@ To get app's default signature string,
 
 ...
 
-SignatureChecker.getSignature(*activity*);
+String signature = SignatureChecker.getSignature(*activity*);
 
 ...
 
@@ -38,7 +38,7 @@ To add salt string to your app's signature string,
 
 <pre><code>
 
-SignatureChecker.getSignature(*activity*, "ThisIsMySaltString");
+String saltedSignature = SignatureChecker.getSignature(*activity*, "ThisIsMySaltString");
 
 </code></pre>
 
