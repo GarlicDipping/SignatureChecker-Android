@@ -8,7 +8,7 @@ public class SignatureChecker {
         System.loadLibrary("signature-checker");
     }
     private static SignatureChecker instance;
-    public static SignatureChecker getInstance()
+    private static SignatureChecker getInstance()
     {
         if(instance == null)
         {
